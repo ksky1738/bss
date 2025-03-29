@@ -1179,7 +1179,7 @@ window.dialogue_honeyBee=function(player,items,NPCs){
         let rand=mulberry32(NPCs.honeyBee.seed+diff)
         
         let rew=[['honey',5*(diff+1)*(diff+1)+1000]]
-        let rewm = 10000;
+       // let rewm = 10000;
         // rew.push(['neonberry', rewm])
         // rew.push(['moonCharm', rewm])
        //  rew.push(['tropicalDrink', rewm])
