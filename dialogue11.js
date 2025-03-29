@@ -148,11 +148,11 @@ window.dialogue_polarBear=function(player,items,NPCs){
           rew.push(['strawberry', rewm])
          rew.push(['pineapple', rewm])
         rew.push(['stinger', rewm])
-        rew.push(['sunflowerSeed', rewm])
-            rew.push(['gumdrops', rewm])
-        rew.push(['redExtract', rewm])
-        rew.push(['blueExtract', rewm])
-        rew.push(['fieldDice', rewm])
+        // rew.push(['sunflowerSeed', rewm])
+        //     rew.push(['gumdrops', rewm])
+        // rew.push(['redExtract', rewm])
+        // rew.push(['blueExtract', rewm])
+        // rew.push(['fieldDice', rewm])
         // rew.push(['bearBeeEgg',1])
      //    rew.push(['goldEgg',rewm])
      //    rew.push(['diamondEgg',rewm])      
@@ -185,10 +185,6 @@ window.dialogue_polarBear=function(player,items,NPCs){
         //      rew.push('swirledWax', rewm])
           // rew.push('smoothDice', rewm])
           // rew.push('loadedDice', rewm])
-        
-        
-        
-        
 
         return ["Hey there! You hungry? If you collect the ingredients, I'll cook us up something good.","So good it'll permanently increase the maximum energy of your bees by 5%! I'll even throw in some honey for dessert!","Now, if you'll excuse me, I'm going back to coding. I don't do this in the real game, but I heard polar bears are nerds at coding.",
 
