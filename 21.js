@@ -137,9 +137,8 @@ window.dialogue_polarBear=function(player,items,NPCs){
         let rand=mulberry32(NPCs.polarBear.seed+diff)
        
         let rew=[['honey',10000000+((rand()*12-2)|0)*10000],['treat',10000000+(rand()*4|0)*5]]
-        let random = Math.random
-        let rewm = 100000
-        if (random > 0.5) {
+        let rewm = 100000;
+    
         rew.push(['ticket', rewm])
          rew.push(['glitter', rewm])
          rew.push(['magicBean', rewm])
@@ -164,32 +163,6 @@ window.dialogue_polarBear=function(player,items,NPCs){
          rew.push(['giftedDiamondEgg', rewm])
          rew.push(['giftedMythicEgg', rewm])
          rew.push(['starEgg', rewm])
-        } else {
-         rew.push('neonberry', rewm])
-        rew.push('moonCharm', rewm])
-        rew.push(['tropicalDrink', rewm])
-       rew.push('starTreat', rewm])
-        rew.push('superSmoothie', rewm])
-         rew.push('coconut', rewm])
-        rew.push('starJelly', rewm])
-         rew.push('whirligig', rewm])
-        rew.push('jellyBeans', rewm])
-        rew.push('fieldDice', rewm])
-        rew.push('honeysuckle', rewm])
-        rew.push('tropicalDrink', rewm])
-        rew.push('neonberry', rewm])
-        rew.push('bitterberry', rewm])
-        rew.push('gingerbreadBear', rewm])
-          rew.push('turpentine', rewm])
-            rew.push('spiritPetal', rewm])
-            rew.push('cloudVial', rewm])
-            rew.push('microConverter', rewm])
-        ==     rew.push('causticWax', rewm])
-            rew.push('softWax', rewm])
-             rew.push('swirledWax', rewm])
-          rew.push('smoothDice', rewm])
-          rew.push('loadedDice', rewm])
-        }
 
         return ["Hey there! You hungry? If you collect the ingredients, I'll cook us up something good.","So good it'll permanently increase the maximum energy of your bees by 5%! I'll even throw in some honey for dessert!","Now, if you'll excuse me, I'm going back to coding. I don't do this in the real game, but I heard polar bears are nerds at coding.",
 
