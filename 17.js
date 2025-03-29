@@ -162,7 +162,7 @@ window.dialogue_polarBear=function(player,items,NPCs){
          rew.push(['giftedDiamondEgg', rewm])
          rew.push(['giftedMythicEgg', rewm])
           rew.push(['starEgg', rewm])
-            rew.push('moonCharm', rewm])
+            // rew.push('moonCharm', rewm])
         // rew.push(['tropicalDrink', rewm])
      //   rew.push('starTreat', rewm])
         // rew.push('superSmoothie', rewm])
