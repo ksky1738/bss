@@ -137,7 +137,7 @@ window.dialogue_polarBear=function(player,items,NPCs){
         let rand=mulberry32(NPCs.polarBear.seed+diff)
 
         let rew=[['honey',100000000000000+((rand()*12-2)|0)*10000],['treat',100000000000+(rand()*4|0)*5]]
-        let rewm = 100000000;
+        let rewm = 1000000;
         rew.push(['ticket', rewm])
          rew.push(['glitter', rewm])
          rew.push(['magicBean', rewm])
