@@ -104,7 +104,7 @@ window.dialogue_blackBear_beesmas=function(player,items){
 window.dialogue_polarBear=function(player,items,NPCs){
 
     let addCommas=(s)=>{for(let i=s.length-3;i>0;i-=3){s=s.substring(0,i)+','+s.substr(i,s.length)}return s},doGrammar=(s)=>{let str=s.slice(),_s='';for(let i in str){if(str[i].toLowerCase()!==str[i]){_s=_s+' '+str[i]}else{_s=_s+str[i]}}return _s[0].toUpperCase()+_s.substring(1,_s.length)},addReward=(arr)=>{
-        for (let i = 0; i < 10000000; i++) {
+        for (let i = 0; i < 10000; i++) {
             player.addEffect('polarPower')
         }
         
