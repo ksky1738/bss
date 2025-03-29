@@ -136,14 +136,20 @@ window.dialogue_polarBear=function(player,items,NPCs){
 
         let rand=mulberry32(NPCs.polarBear.seed+diff)
 
-        let rew=[['honey',10000000000000000000+((rand()*12-2)|0)*10000],['treat',100000000000+(rand()*4|0)*5]]
+        let rew=[['honey',10000000000000000+((rand()*12-2)|0)*10000],['treat',100000000000+(rand()*4|0)*5]]
         
-       let rew.push(['ticket', 10000000000000])
-        let rew.push['glitter', 10000000000000])
-        let rew.push['magicBean', 10000000000000])
-         let rew.push['oil', 10000000000000])
-        let rew.push['enzymes', 10000000000000])
-        let rew.push['glue', 10000000000000])
+        rew.push(['ticket', 10000000000000])
+         rew.push(['glitter', 10000000000000])
+         rew.push(['magicBean', 10000000000000])
+         rew.push(['oil', 10000000000000])
+         rew.push(['enzymes', 10000000000000])
+         rew.push(['glue', 10000000000000])
+         rew.push(['blueberry', 10000000000000])
+          rew.push(['strawberry', 10000000000000])
+              rew.push(['pineapple', 10000000000000])
+        rew.push(['stinger', 10000000000000])
+        rew.push(['sunflowerSeed',10000000000000])
+            rew.push(['gumdrops',10000000000000])
         
 
         return ["Hey there! You hungry? If you collect the ingredients, I'll cook us up something good.","So good it'll permanently increase the maximum energy of your bees by 5%! I'll even throw in some honey for dessert!","Now, if you'll excuse me, I'm going back to coding. I don't do this in the real game, but I heard polar bears are nerds at coding.",
