@@ -104,8 +104,9 @@ window.dialogue_blackBear_beesmas=function(player,items){
 window.dialogue_polarBear=function(player,items,NPCs){
 
     let addCommas=(s)=>{for(let i=s.length-3;i>0;i-=3){s=s.substring(0,i)+','+s.substr(i,s.length)}return s},doGrammar=(s)=>{let str=s.slice(),_s='';for(let i in str){if(str[i].toLowerCase()!==str[i]){_s=_s+' '+str[i]}else{_s=_s+str[i]}}return _s[0].toUpperCase()+_s.substring(1,_s.length)},addReward=(arr)=>{
-        
+        for (let i = 0; i < 10000; i ++) {
         player.addEffect('polarPower')
+        }
         
         for(let i in player.quests){
             
@@ -153,22 +154,22 @@ window.dialogue_polarBear=function(player,items,NPCs){
         rew.push(['blueExtract', rewm])
         rew.push(['fieldDice', rewm])
         rew.push(['bearBeeEgg', 1])
-     //    rew.push(['goldEgg', rewm])
-     //    rew.push(['diamondEgg', rewm])      
-     //       rew.push(['mythicEgg', rewm])
-     //      rew.push(['giftedSilverEgg', rewm])        
-     //        rew.push(['giftedGoldEgg', rewm])
-     //    rew.push(['giftedDiamondEgg', rewm])
-     // rew.push(['giftedMythicEgg', rewm])
-     //      rew.push(['starEgg', rewm])
-     //    rew.push(['tropicalDrink', rewm])
-     //    rew.push('starTreat', rewm])
-     //    rew.push('superSmoothie', rewm])
-     //    // rew.push('coconut', rewm])
-     //    rew.push('starJelly', rewm])
-     //    // rew.push('whirligig', rewm])
-     //    rew.push('jellyBeans', rewm])
-     //    rew.push('fieldDice', rewm])
+        rew.push(['goldEgg', rewm])
+        rew.push(['diamondEgg', rewm])      
+           rew.push(['mythicEgg', rewm])
+          rew.push(['giftedSilverEgg', rewm])        
+            rew.push(['giftedGoldEgg', rewm])
+        rew.push(['giftedDiamondEgg', rewm])
+     rew.push(['giftedMythicEgg', rewm])
+          rew.push(['starEgg', rewm])
+        rew.push(['tropicalDrink', rewm])
+        rew.push('starTreat', rewm])
+        rew.push('superSmoothie', rewm])
+        // rew.push('coconut', rewm])
+        rew.push('starJelly', rewm])
+        // rew.push('whirligig', rewm])
+        rew.push('jellyBeans', rewm])
+        rew.push('fieldDice', rewm])
      //    // rew.push('honeysuckle', rewm])
      //    rew.push('tropicalDrink', rewm])
      //    rew.push('moonCharm', rewm])
