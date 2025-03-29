@@ -153,7 +153,7 @@ window.dialogue_polarBear=function(player,items,NPCs){
         rew.push(['redExtract', rewm])
         rew.push(['blueExtract', rewm])
         rew.push(['fieldDice', rewm])
-        rew.push(['bearBeeEgg',1])
+        // rew.push(['bearBeeEgg',1])
      //    rew.push(['goldEgg',rewm])
      //    rew.push(['diamondEgg',rewm])      
      //       rew.push(['mythicEgg',rewm])
