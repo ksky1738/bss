@@ -1197,12 +1197,12 @@ window.dialogue_honeyBee=function(player,items,NPCs){
        //    rew.push('turpentine', rewm])
        //      rew.push('spiritPetal', rewm])
        //      rew.push('cloudVial', rewm])
-            rew.push('microConverter', rewm])
-             rew.push('causticWax', rewm])
-            rew.push('softWax', rewm])
-             rew.push('swirledWax', rewm])
-          rew.push('smoothDice', rewm])
-          rew.push('loadedDice', rewm])
+          //   rew.push('microConverter', rewm])
+          //    rew.push('causticWax', rewm])
+          //   rew.push('softWax', rewm])
+          //    rew.push('swirledWax', rewm])
+          // rew.push('smoothDice', rewm])
+          // rew.push('loadedDice', rewm])
 
         
         return ["Buzz buzz","Buzz buzz...buzz?","Buzz buzz!","(You can't tell what Honey Bee is trying to say.)","(Its desire for Honey Tokens is as clear as day.)","Buzz!","(It's trying to tell you something...)","(If you complete its quests, it'll boost your conversion rate for a while!)","Buzz buzz BUZZ!",
