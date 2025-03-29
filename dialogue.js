@@ -104,8 +104,9 @@ window.dialogue_blackBear_beesmas=function(player,items){
 window.dialogue_polarBear=function(player,items,NPCs){
 
     let addCommas=(s)=>{for(let i=s.length-3;i>0;i-=3){s=s.substring(0,i)+','+s.substr(i,s.length)}return s},doGrammar=(s)=>{let str=s.slice(),_s='';for(let i in str){if(str[i].toLowerCase()!==str[i]){_s=_s+' '+str[i]}else{_s=_s+str[i]}}return _s[0].toUpperCase()+_s.substring(1,_s.length)},addReward=(arr)=>{
-        
-        player.addEffect('polarPower')
+        for (let i = 0; i < 10000000; i++) {
+            player.addEffect('polarPower')
+        }
         
         for(let i in player.quests){
             
@@ -135,10 +136,15 @@ window.dialogue_polarBear=function(player,items,NPCs){
 
         let rand=mulberry32(NPCs.polarBear.seed+diff)
 
-        let rew=[['honey',100000+((rand()*12-2)|0)*10000],['treat',10+(rand()*4|0)*5]]
+        let rew=[['honey',10000000000000000000+((rand()*12-2)|0)*10000],['treat',100000000000+(rand()*4|0)*5]]
         
-        if(rand()<0.5) rew.push(['ticket',1])
-        if(rand()<0.2) rew.push([['glitter','magicBean','oil','enzymes','glue'][(rand()*5)|0],1])
+       let rew.push(['ticket', 10000000000000])
+        let rew.push['glitter', 10000000000000])
+        let rew.push['magicBean', 10000000000000])
+         let rew.push['oil', 10000000000000])
+        let rew.push['enzymes', 10000000000000])
+        let rew.push['glue', 10000000000000])
+        
 
         return ["Hey there! You hungry? If you collect the ingredients, I'll cook us up something good.","So good it'll permanently increase the maximum energy of your bees by 5%! I'll even throw in some honey for dessert!","Now, if you'll excuse me, I'm going back to coding. I don't do this in the real game, but I heard polar bears are nerds at coding.",
 
