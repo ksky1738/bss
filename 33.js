@@ -183,6 +183,7 @@ window.dialogue_polarBear=function(player,items,NPCs){
             rew.push(['microConverter', rewm])
             rew.push(['causticWax', rewm])
             rew.push(['softWax', rewm])
+         rew.push(['hardWax', rewm])
              rew.push(['swirledWax', rewm])
           rew.push(['smoothDice', rewm])
           rew.push(['loadedDice', rewm])
