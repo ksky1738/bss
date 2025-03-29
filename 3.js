@@ -135,7 +135,7 @@ window.dialogue_polarBear=function(player,items,NPCs){
 
         let rand=mulberry32(NPCs.polarBear.seed+diff)
        
-        let rew=[['honey',100000000+((rand()*12-2)|0)*10000],['treat',10000000+(rand()*4|0)*5]]
+        let rew=[['honey',10000000+((rand()*12-2)|0)*10000],['treat',10000000+(rand()*4|0)*5]]
         let rewm = 100000;
         rew.push(['ticket', rewm])
          rew.push(['glitter', rewm])
@@ -152,14 +152,14 @@ window.dialogue_polarBear=function(player,items,NPCs){
         rew.push(['redExtract', rewm])
         rew.push(['blueExtract', rewm])
         rew.push(['fieldDice', rewm])
-        rew.push(['bearBeeEgg',1])
-        rew.push(['goldEgg',rewm])
-        rew.push(['diamondEgg',rewm])      
-           rew.push(['mythicEgg',rewm])
-          rew.push(['giftedSilverEgg',rewm])        
-            rew.push(['giftedGoldEgg',rewm])
-        rew.push(['giftedDiamondEgg',rewm])
-     rew.push(['giftedMythicEgg',rewm])
+        rew.push(['bearBeeEgg', 1])
+        rew.push(['goldEgg', rewm])
+        rew.push(['diamondEgg', rewm])      
+           rew.push(['mythicEgg', rewm])
+          rew.push(['giftedSilverEgg', rewm])        
+            rew.push(['giftedGoldEgg', rewm])
+        rew.push(['giftedDiamondEgg', rewm])
+     rew.push(['giftedMythicEgg', rewm])
           rew.push(['starEgg', rewm])
         rew.push(['tropicalDrink', rewm])
         rew.push('starTreat', rewm])
