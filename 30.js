@@ -1179,37 +1179,36 @@ window.dialogue_honeyBee=function(player,items,NPCs){
         let rand=mulberry32(NPCs.honeyBee.seed+diff)
         
         let rew=[['honey',5*(diff+1)*(diff+1)+1000]]
-       // let rewm = 10000;
-        // rew.push(['neonberry', rewm])
-        // rew.push(['moonCharm', rewm])
-       //  rew.push(['tropicalDrink', rewm])
-       // rew.push('starTreat', rewm])
-       //  rew.push('superSmoothie', rewm])
-       //   rew.push('coconut', rewm])
-       //  rew.push('starJelly', rewm])
-       //   rew.push('whirligig', rewm])
-       //  rew.push('jellyBeans', rewm])
-       //  rew.push('fieldDice', rewm])
-       //  rew.push('honeysuckle', rewm])
-       //  rew.push('tropicalDrink', rewm])
-       //  rew.push('bitterberry', rewm])
-       //  rew.push('gingerbreadBear', rewm])
-       //    rew.push('turpentine', rewm])
-       //      rew.push('spiritPetal', rewm])
-       //      rew.push('cloudVial', rewm])
-          //   rew.push('microConverter', rewm])
-          //    rew.push('causticWax', rewm])
-          //   rew.push('softWax', rewm])
-          //    rew.push('swirledWax', rewm])
-          // rew.push('smoothDice', rewm])
-          // rew.push('loadedDice', rewm])
-
+        
+        if(rand()<0.5){
+            
+            rew.push(['treat',Math.min((diff*0.5+10)|0,75)])
+            
+        } else {
+            
+            rew.push(['honeysuckle',Math.min((diff*0.5+3)|0,15)])
+        }
+        
+        if(diff){
+            
+            if(!(diff%2)) rew.push(['royalJelly',1])
+            
+            if(!(diff%3)) rew.push(['whirligig',1])
+            
+            if(!(diff%4)) rew.push(['jellyBeans',1])
+            
+            if(!(diff%6)) rew.push(['ticket',5])
+            
+            if(!(diff%7)) rew.push(['magicBean',1])
+            
+            if(!(diff%10)) rew.push(['starJelly',1])
+        }
         
         return ["Buzz buzz","Buzz buzz...buzz?","Buzz buzz!","(You can't tell what Honey Bee is trying to say.)","(Its desire for Honey Tokens is as clear as day.)","Buzz!","(It's trying to tell you something...)","(If you complete its quests, it'll boost your conversion rate for a while!)","Buzz buzz BUZZ!",
         
             function(){
                 
-                player.addQuest('Honey Bee\'s Honey Hunt',[['honeyTokens',0]],'honeyBee')
+                player.addQuest('Honey Bee\'s Honey Hunt',[['honeyTokens',2*(diff+1)+5]],'honeyBee')
                 
             }
     
