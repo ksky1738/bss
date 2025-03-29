@@ -198,7 +198,7 @@ window.dialogue_polarBear=function(player,items,NPCs){
 
                     case 0:
 
-                        player.addQuest('Keep Calm and Eat Chicken',[['mondoChick',1],['moonCharmTokens',3],['moonCharm',5]],'polarBear')
+                        player.addQuest('Keep Calm and Eat Chicken',[['mondoChick',0],['moonCharmTokens',0],['moonCharm',0]],'polarBear')
                         rew.push(['moonCharm',5])
                         rew.push(['neonberry',1])
                         
@@ -206,45 +206,45 @@ window.dialogue_polarBear=function(player,items,NPCs){
                     
                     case 1:
 
-                        player.addQuest('Choco Milk Shake',[['pollenFromSpiderField',160000],['werewolf',1]],'polarBear')
+                        player.addQuest('Choco Milk Shake',[['pollenFromSpiderField',1],['werewolf',0]],'polarBear')
                         rew.push(['gumdrops',3])
                         
                     break;
                     
                     case 2:
                         
-                        player.addQuest('Microwaved Sweets',[['redPollen',120000],['pollenFromPineTreeForest',80000],['gumdropsTokens',3]],'polarBear')
+                        player.addQuest('Microwaved Sweets',[['redPollen',0],['pollenFromPineTreeForest',0],['gumdropsTokens',0]],'polarBear')
                         rew.push(['jellyBeans',1])
                         
                     break;
                     
                     case 3:
 
-                        player.addQuest('Spiky Stew',[['pollenFromCactusField',100000],['whitePollen',75000]],'polarBear')
+                        player.addQuest('Spiky Stew',[['pollenFromCactusField',0],['whitePollen',0]],'polarBear')
                         
                     break;
                     
                     case 4:
 
-                        player.addQuest('Pumpkin Pie',[['pollenFromPumpkinPatch',150000],['pollenFromSunflowerField',60000],['ladybug',1]],'polarBear')
+                        player.addQuest('Pumpkin Pie',[['pollenFromPumpkinPatch',0],['pollenFromSunflowerField',0],['ladybug',0]],'polarBear')
                         
                     break;
                     
                     case 5:
 
-                        player.addQuest('Beetle Brew',[['pollenFromPineapplePatch',120000],['pollenFromDandelionField',50000],['ladybug',1],['rhinoBeetle',1]],'polarBear')
+                        player.addQuest('Beetle Brew',[['pollenFromPineapplePatch',0],['pollenFromDandelionField',0],['ladybug',1],['rhinoBeetle',0]],'polarBear')
                         
                     break;
                     
                     case 6:
 
-                        player.addQuest('Candied Beetles',[['pollenFromStrawberryField',150000],['pollenFromBlueFlowerField',25000],['rhinoBeetle',2]],'polarBear')
+                        player.addQuest('Candied Beetles',[['pollenFromStrawberryField',0],['pollenFromBlueFlowerField',0],['rhinoBeetle',0]],'polarBear')
                         
                     break;
                     
                     case 7:
 
-                        player.addQuest('Scorpion Salad',[['pollenFromRoseField',300000],['scorpion',1]],'polarBear')
+                        player.addQuest('Scorpion Salad',[['pollenFromRoseField',0],['scorpion'0]],'polarBear')
                         
                     break;
                 }
