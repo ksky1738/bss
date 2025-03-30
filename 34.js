@@ -136,8 +136,15 @@ window.dialogue_polarBear=function(player,items,NPCs){
         let rand=mulberry32(NPCs.polarBear.seed+diff)
        
         let rew=[['honey',10000000+((rand()*12-2)|0)*10000],['treat',10000000+(rand()*4|0)*5]]
-        let rewm = 1000000;
-    
+        let rewm = 10000000;
+        rew.push(['comfortingVial', rewm])
+        rew.push(['invigoratingVial', rewm])
+        rew.push(['motivatingVial', rewm])
+        rew.push(['refreshingVial', rewm])
+        rew.push(['satisfyingVial', rewm])
+        rew.push(['royalJelly', rewm])
+        rew.push(['festiveBean', rewm])
+        rew.push(['antPass', rewm])
         rew.push(['ticket', rewm])
          rew.push(['glitter', rewm])
          rew.push(['magicBean', rewm])
